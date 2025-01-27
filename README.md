@@ -36,3 +36,5 @@ A configuración para o sitio www.exemplo.lan debe ser a seguinte:
 Que pasaría se nun ficheiro .htaccess no directorio 50 se introduce unha directiva non permitida, coma por exemplo ErrorDocument?.
 
 - Como farías para configurar os 4 primeiros puntos con ficheiros .htaccess. Amosa a configuración resultante do host virtual, e o contido e localización dos ficheiros `.htaccess`
+
+Exercizo Feito en https://docs.google.com/document/d/1KTUdHOvk4kvJr9yS1OvpzMnuaWeTL7vtzQYOiOS5HWE/edit?usp=sharing

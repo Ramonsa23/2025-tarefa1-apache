@@ -4,7 +4,7 @@ services:
     ports:
       - 80:80
     volumes:
-      - ./apache/tarefa2.conf:/etc/apache2/sites-enabled/tarefa2.conf
+      - ./apache/tarefa3.conf:/etc/apache2/sites-enabled/tarefa3.conf
       - ./exemplo.lan:/opt/web/exemplo.lan
       - ./omeusitio.lan:/opt/web/omeusitio.lan
 

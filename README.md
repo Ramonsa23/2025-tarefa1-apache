@@ -37,10 +37,10 @@ Que pasaría se nun ficheiro .htaccess no directorio 50 se introduce unha direct
 
 - Como farías para configurar os 4 primeiros puntos con ficheiros .htaccess. Amosa a configuración resultante do host virtual, e o contido e localización dos ficheiros `.htaccess`
 
-Exercizo 1 Feito en https://docs.google.com/document/d/1KTUdHOvk4kvJr9yS1OvpzMnuaWeTL7vtzQYOiOS5HWE/edit?usp=sharing
+Tarefa 1 Feita en https://docs.google.com/document/d/1KTUdHOvk4kvJr9yS1OvpzMnuaWeTL7vtzQYOiOS5HWE/edit?usp=sharing
 
 
-Exercizo 2 Feito en https://docs.google.com/document/d/1mbyrnv_qgnS39Gs3cTmOYDZiOu0L7Op3Pe9Zdgn1PQE/edit?usp=sharing
+Tarefa 3 Feita en https://docs.google.com/document/d/1mbyrnv_qgnS39Gs3cTmOYDZiOu0L7Op3Pe9Zdgn1PQE/edit?usp=sharing
 
 
 git add .

@@ -4,8 +4,9 @@ services:
     ports:
       - 80:80
     volumes:
-      - ./apache/tarefa1.conf:/etc/apache2/sites-enabled/tarefa1.conf
+      - ./apache/tarefa2.conf:/etc/apache2/sites-enabled/tarefa2.conf
       - ./exemplo.lan:/opt/web/exemplo.lan
+      - ./omeusitio.lan:/opt/web/omeusitio.lan
 
     networks:
       redeapache:
@@ -13,6 +14,8 @@ services:
           - exemplo.lan
           - www.exemplo.lan
           - eq1.exemplo.lan
+          - www.omeusitio.lan
+          - omeusitio.lan
     develop:
       watch:
         - path: ./apache/test1.conf

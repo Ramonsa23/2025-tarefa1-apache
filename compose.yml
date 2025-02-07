@@ -10,6 +10,7 @@ services:
 
     networks:
       redeapache:
+        ipv4_address: 192.168.58.100
         aliases:
           - exemplo.lan
           - www.exemplo.lan
@@ -25,7 +26,8 @@ services:
     image: brunosct/debian12-cliente-firefox
     hostname: cliente
     networks:
-      - redeapache
+      redeapache:
+        ipv4_address: 192.168.58.127
     environment:
       - DISPLAY=${DISPLAY}
     volumes:
@@ -33,3 +35,6 @@ services:
 
 networks:
   redeapache:
+    ipam:
+      config:
+        - subnet: 192.168.58.0/24

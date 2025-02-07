@@ -1,0 +1,5 @@
+AuthType Basic
+AuthName "Restricted Files"
+AuthBasicProvider file
+AuthUserFile "/opt/web/omeusitio.lan/.htusuarios"
+Require user ana

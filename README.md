@@ -42,7 +42,15 @@ Tarefa 1 Feita en https://docs.google.com/document/d/1KTUdHOvk4kvJr9yS1OvpzMnuaW
 
 Tarefa 3 Feita en https://docs.google.com/document/d/1mbyrnv_qgnS39Gs3cTmOYDZiOu0L7Op3Pe9Zdgn1PQE/edit?usp=sharing
 
+(Incompleta)
+
 Tarefa 4 Feita en https://docs.google.com/document/d/1CDht5uBo-pZhqfp0srnXZs8WF2A3VJkXvZm4z31TEg4/edit?usp=sharing
+
+Tarefa 5 Feita en https://docs.google.com/document/d/1irdSfgj1CNZtzC80AbqPMlw4UBMBSZ4kjq3kDUZotAY/edit?usp=sharing
+
+
+Tarefa 6 Feita en https://docs.google.com/document/d/1MBwLwJ8dyYy2cETXoJJBHveDuyjMNXblT97vq2MEZs8/edit?usp=sharing
+
 
 git add .
 git commit -m "Commit x"

@@ -7,6 +7,9 @@ services:
       - ./apache/tarefa3.conf:/etc/apache2/sites-enabled/tarefa3.conf
       - ./exemplo.lan:/opt/web/exemplo.lan
       - ./omeusitio.lan:/opt/web/omeusitio.lan
+      - ./certificados/meusitio.key:/etc/ssl/private/meusitio.key
+      - ./certificados/meusitio.pem:/etc/ssl/certs/meusitio.pem
+      - ./acceso.log:/var/log/apache2/omeusitio.lan/acceso.log
 
     networks:
       redeapache:

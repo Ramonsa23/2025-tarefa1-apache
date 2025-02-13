@@ -3,10 +3,12 @@ services:
     build: apache
     ports:
       - 80:80
+      - 443:443
     volumes:
-      - ./apache/tarefa3.conf:/etc/apache2/sites-enabled/tarefa3.conf
+      - ./apache/tarefa6.conf:/etc/apache2/sites-enabled/tarefa6.conf
       - ./exemplo.lan:/opt/web/exemplo.lan
       - ./omeusitio.lan:/opt/web/omeusitio.lan
+      - ./novositio.lan:/opt/web/novositio.lan
       - ./certificados/meusitio.key:/etc/ssl/private/meusitio.key
       - ./certificados/meusitio.pem:/etc/ssl/certs/meusitio.pem
       - ./acceso.log:/var/log/apache2/omeusitio.lan/acceso.log
@@ -20,6 +22,8 @@ services:
           - eq1.exemplo.lan
           - www.omeusitio.lan
           - omeusitio.lan
+          - novositio.lan
+          - www.novositio.lan
     develop:
       watch:
         - path: ./apache/test1.conf
